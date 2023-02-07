@@ -1,0 +1,44 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>img/stair1.png</file>
+        <file>img/stair2.png</file>
+        <file>img/background.png</file>
+        <file>img/stair4_1.png</file>
+        <file>img/stair4_2.png</file>
+        <file>img/stair3_1.png</file>
+        <file>img/stair3_2.png</file>
+        <file>img/P1_static.png</file>
+        <file>img/P1_left_1.png</file>
+        <file>img/P1_left_2.png</file>
+        <file>img/P1_left_3.png</file>
+        <file>img/P1_right_1.png</file>
+        <file>img/P1_right_2.png</file>
+        <file>img/P1_right_3.png</file>
+        <file>img/P1_down_1.png</file>
+        <file>img/P1_down_2.png</file>
+        <file>img/P1_down_3.png</file>
+        <file>img/P2_down_1.png</file>
+        <file>img/P2_down_2.png</file>
+        <file>img/P2_down_3.png</file>
+        <file>img/P2_left_1.png</file>
+        <file>img/P2_left_2.png</file>
+        <file>img/P2_left_3.png</file>
+        <file>img/P2_right_1.png</file>
+        <file>img/P2_right_2.png</file>
+        <file>img/P2_right_3.png</file>
+        <file>img/P2_static.png</file>
+        <file>img/ceil.png</file>
+        <file>img/P1_left_run.gif</file>
+        <file>img/App.ico</file>
+        <file>img/wholebackground.png</file>
+        <file>img/stair5_1.png</file>
+        <file>img/stair5_2.png</file>
+        <file>img/stair5_3.png</file>
+        <file>img/stair5_4.png</file>
+        <file>img/stair5_5.png</file>
+        <file>img/stair5_6.png</file>
+        <file>img/startbackground.png</file>
+        <file>img/pause.png</file>
+        <file>img/wall.png</file>
+    </qresource>
+</RCC>

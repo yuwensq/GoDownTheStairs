@@ -1,0 +1,160 @@
+QWidget#frmLogin,QWidget#frmPopup,QWidget#frmHostInfo,QWidget#frmLogout,QWidget#frmConfig,QWidget#frmData,QWidget#frmDefence,QWidget#frmHost,QWidget#frmMain,QWidget#frmPwd,QWidget#frmSelect,QWidget#frmMessageBox{
+    border:1px solid #1B89CA;
+    border-radius:0px;  
+}
+ 
+.QFrame{
+    border:1px solid #5CACEE;
+    border-radius:5px;
+    
+}
+QWidget#widget_title{
+    background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #1B89CA, stop:1 #1077B5);
+}
+ 
+QLabel#lab_Ico,QLabel#lab_Title{
+    border-radius:0px;
+    color: #F0F0F0;
+    background-color:rgba(0,0,0,0);
+    border-style:none;
+}
+
+.QGroupBox{
+    border: 1px solid #5CACEE;
+    border-radius: 2px;   
+    background-color: rgb(93, 143, 248);
+    
+  }
+
+.QPushButton{
+	font-size: 30px;
+	text-decoration: ;
+    border-style: none;
+    border: 0px;
+    color: #F0F0F0;
+    padding: 5px;   
+    min-height: 20px;
+    border-radius:10px;
+    background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #1B89CA, stop:1 #1077B5); 
+}
+ 
+.QPushButton[focusPolicy="0"] {
+    border-style: none;
+    border: 0px;
+    color: #F0F0F0;
+    padding: 0px;   
+    min-height: 10px;
+    border-radius:3px;
+    background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #1B89CA, stop:1 #1077B5); 
+}
+
+.start #label_1{
+	padding: 0px 0px 0px 0px;
+	border:1px solid #00aaff;
+	text-align:center;
+	color:#00aaff;
+	font-size:40px;
+	font-weight:bold;
+	border-radius:10px 10px;
+}
+
+.start #label_1:hover{
+	border:1px solid #ff007f;
+	text-align:center;
+	color:#ff007f;
+	font-size:40px;
+	font-weight:bold;
+	border-radius:10px 10px;
+}
+
+.start #label_1{
+	background-image:url(:/images/img/P1_left_run.gif);
+	background-position:top;
+	background-repeat:repeat;
+}
+.start #pushButton_shutdown{
+	font-size: 20px;
+}
+
+.QPushButton:hover{ 
+    background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #5CACEE, stop:1 #4F94CD);
+}
+ 
+.QPushButton:pressed{ 
+    background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #1B89CA, stop:1 #1077B5);
+}
+ 
+QPushButton#btnMenu,QPushButton#btnMenu_Min,QPushButton#btnMenu_Max,QPushButton#btnMenu_Close{
+    border-radius:0px;
+    color: #F0F0F0;
+    background-color:rgba(0,0,0,0);
+    border-style:none;
+}
+ 
+QPushButton#btnMenu:hover,QPushButton#btnMenu_Min:hover,QPushButton#btnMenu_Max:hover{
+    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(25, 134, 199, 0), stop:1 #5CACEE);
+}
+ 
+QPushButton#btnMenu_Close:hover{
+    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(238, 0, 0, 128), stop:1 rgba(238, 44, 44, 255));
+}
+  
+
+/*Qmenu Style Sheets*/
+ QMenu {
+     background-color: white; /* sets background of the menu 设置整个菜单区域的背景色，我用的是白色：white*/
+     border: 1px solid white;/*整个菜单区域的边框粗细、样式、颜色*/
+ }
+  
+ QMenu::item {
+     /* sets background of menu item. set this to something non-transparent
+         if you want menu color and menu item color to be different */
+     background-color: transparent;
+     padding:8px 32px;/*设置菜单项文字上下和左右的内边距，效果就是菜单中的条目左右上下有了间隔*/
+     margin:0px 8px;/*设置菜单项的外边距*/
+     border-bottom:1px solid #DBDBDB;/*为菜单项之间添加横线间隔*/
+ }
+  
+QMenu::item:selected { /* when user selects item using mouse or keyboard */
+     background-color: #2dabf9;/*这一句是设置菜单项鼠标经过选中的样式*/
+ } 
+QMenu::separator {
+    height: 1px;
+    background: #5CACEE;
+}
+ 
+QProgressBar {
+    border-radius: 0px;
+    text-align: center;
+    border: 1px solid #5CACEE;
+}
+ 
+QProgressBar::chunk {
+    width: 8px; 
+    margin: 0.5px;
+    background-color: #1B89CA;
+}
+
+.QPushButton:hover{
+	color: hotpink;
+}
+
+.QLabel{
+	color: #00aaff;
+	font-size: 40px;
+}
+
+#label_p1_life,#label_p2_life{
+	font-size: 28px;
+	color: #00aaff;
+}
+
+#pushButton_music{
+	font-size: 15px;
+	border-radius:25px;
+}
+
+#pushButton_help{
+	font-size: 15px;
+	border-radius: 15px;
+}
